@@ -1,5 +1,11 @@
 import { Options, Icon } from "./types";
 
+type Path = {
+  d: string;
+  key: string;
+  [key: string]: any;
+};
+
 function getSvgPaths(currentIcon: Icon, options: Options = {}) {
   if (!currentIcon) return [];
 
@@ -10,7 +16,7 @@ function getSvgPaths(currentIcon: Icon, options: Options = {}) {
       delete attrs.fill;
     }
 
-    const path = {
+    const path: Path = {
       d: _path,
       key: currentIcon.properties.name + index,
       ...attrs,
