@@ -7,7 +7,7 @@ function getCurrentIcon(iconSet: IconSet, iconName: string) {
     (item) => item.properties.name === iconName
   );
 
-  return currentIcon;
+  return currentIcon || null;
 }
 
 export default getCurrentIcon;
