@@ -1,11 +1,18 @@
 import { Options } from "./types";
 
 function getComputedSvgStyle(options: Options = {}) {
-  const initialStyle = {
+  const initialStyle: Record<string, any> = {
     display: "inline-block",
     stroke: "currentColor",
     fill: "currentColor",
   };
+
+  // For ReactNative support - (react-icomoon)
+  if (options.native) {
+    initialStyle.display = "flex";
+    initialStyle.flexDirection = "row";
+    initialStyle.flexWrap = "wrap";
+  }
 
   const removeInlineStyle =
     options.removeInitialStyle || options.removeInlineStyle;

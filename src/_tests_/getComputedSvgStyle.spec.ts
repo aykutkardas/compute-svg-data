@@ -17,6 +17,18 @@ describe("getComputedSvgStyle", () => {
     expect(initialStyle).to.deep.equal(computedStyle);
   });
 
+  it("Native", () => {
+    const options = { native: true };
+    const computedStyle = getComputedSvgStyle(options);
+
+    expect({
+      ...initialStyle,
+      display: "flex",
+      flexDirection: "row",
+      flexWrap: "wrap",
+    }).to.deep.equal(computedStyle);
+  });
+
   it("With Size", () => {
     const options = { size: 20 };
     const computedStyle = getComputedSvgStyle(options);
