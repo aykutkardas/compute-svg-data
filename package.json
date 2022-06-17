@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aykutkardas/svgps-compute-svg-data.git"
+    "url": "git+https://github.com/aykutkardas/compute-svg-data.git"
   },
   "keywords": [
     "svgps",
@@ -20,9 +20,9 @@
   "author": "Aykut Kardaş <aykutkrds@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aykutkardas/svgps-compute-svg-data/issues"
+    "url": "https://github.com/aykutkardas/compute-svg-data/issues"
   },
-  "homepage": "https://github.com/aykutkardas/svgps-compute-svg-data#readme",
+  "homepage": "https://github.com/aykutkardas/compute-svg-data#readme",
   "devDependencies": {
     "@types/mocha": "^9.1.1",
     "@types/node": "^18.0.0",

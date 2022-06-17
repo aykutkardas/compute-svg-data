@@ -1,1 +1,1 @@
-# @svgps/compute-svg-data
+# compute-svg-data
