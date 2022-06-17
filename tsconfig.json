@@ -6,7 +6,9 @@
     "declarationMap": true,
     "experimentalDecorators": true,
     "lib": ["dom", "es6", "es5", "es2017"],
-    "removeComments": true
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true
   },
   "include": ["./src/**/*"],
   "exclude": ["./src/**/*.spec.ts"],

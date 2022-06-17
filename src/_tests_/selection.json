@@ -1,0 +1,75 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M48 1024h672c26.464"
+        ],
+        "width": 768,
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": ["document", "file", "paper", "text"],
+        "defaultCode": 57349,
+        "grid": 32
+      },
+      "attrs": [],
+      "properties": {
+        "id": 6,
+        "order": 1005,
+        "prevSize": 32,
+        "code": 57349,
+        "name": "document"
+      },
+      "setIdx": 0,
+      "setId": 5,
+      "iconIdx": 5
+    }
+  ],
+  "height": 1024,
+  "metadata": { "name": "icomoon" },
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": false,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon",
+        "majorVersion": 1,
+        "minorVersion": 0
+      },
+      "metrics": { "emSize": 1024, "baseline": 6.25, "whitespace": 50 },
+      "embed": false,
+      "showMetadata": false,
+      "showMetrics": false,
+      "showSelector": false,
+      "showVersion": false,
+      "noie8": true,
+      "ie7": false,
+      "cssVars": true,
+      "cssVarsFormat": "scss",
+      "resetPoint": 59648,
+      "ligaReset": "tags"
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon",
+      "name": "icomoon-asd",
+      "height": 32,
+      "columns": 16,
+      "margin": 16,
+      "pdf": true
+    },
+    "historySize": 50,
+    "showCodes": false,
+    "gridSize": 16,
+    "showLiga": false
+  }
+}
